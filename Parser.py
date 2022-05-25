@@ -27,4 +27,5 @@ while len(posts_list) == 0:
     posts_list = get_posts(URL_TEMPLATE)
     sleep(5)
 
-print(posts_list)
+for i in posts_list:
+    print(i)
